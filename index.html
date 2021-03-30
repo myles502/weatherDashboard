@@ -22,9 +22,9 @@
           <button id = "search" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </nav>
-      <section class = "container">
+      <section id= "forecast-results" class = "container d none">
       <header>
-        <h2 class = "h4"> San Diego Forecast</h2>
+        <h2 class = "h4"> <span id= "city-name" ></span> Forecast</h2>
       </header>
       <div class = "table-responsive">
          <thead class ="table">
@@ -38,15 +38,15 @@
                  <th>Wind</th>
               </tr>
           </thead>
-          <tbody>
+          <tbody id= "forecast-table-body" >
            <tr>
-               <td>3/30/21</td>
-               <td>8:00 Am</td>
+               <td></td>
+               <td></td>
                <td>
                   <img src = "http://openweathermap.org/img/wn/10d@2x.png" alt = "images" >
                </td>
                
-               <td>80 deg F</td>
+               <td></td>
                
            </tr>
          </tbody>
